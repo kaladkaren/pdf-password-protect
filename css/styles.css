@@ -1,0 +1,90 @@
+body{
+    font-size: 16px;
+    font-family: 'Circular Std', Courier, monospace;
+    margin: 0;
+}
+
+body p{
+    font-size: 18px; font-family: 'circ-std-med",Arial,Helvetica,sans-serif'; 
+}
+
+header{
+    width: 100%; height: auto; position: fixed; z-index: 100; background: rgba(255,255,255,.75);;
+}
+
+header div.main-nav{
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 20px 30px;
+}
+
+header div.main-nav aside{
+    width: 30%;
+}
+
+header div.main-nav aside img{
+    width: 320px;
+    height: auto;
+    display: inline-block;
+}
+
+header div.main-nav ul.nav{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    margin: 0;
+    padding: 10px 50px;
+}
+
+header div.main-nav ul.nav li{
+    margin: auto;
+}
+
+header div.main-nav ul.nav li a{
+    text-decoration: none; text-transform: uppercase; font-size: 18px;
+}
+
+section.banner{
+    width: 100%;
+}
+
+section.banner div.container{
+    position: relative; width: 100%;
+}
+
+section.banner div.container div.bot div.item{
+    height: 96vh;
+}
+
+section.banner div.container div.bot div.item img{
+    object-fit: cover; width: 100%; height: 100%;
+}
+
+section.banner div.container div.bot h1{
+    position: absolute;  width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; text-transform: uppercase; font-size: 56px; font-family: "bebas"; letter-spacing: 5px;
+}
+
+section.banner div.container div.bot h1 span{
+    background: rgba(20,44,102,.75);;
+}
+
+div.box-list{
+    position: absolute; width: 100%; bottom: -50px;
+}
+
+div.box-list ul{
+    display: flex; list-style: none; margin: 0 20%; height: auto; background: #142C66; padding: 0;
+}
+
+div.box-list ul li{
+    width: 33%; color: white; text-align: center; padding: 20px 30px;
+}
+
+div.box-list ul li h1{
+    font-size: 72px; margin: 0;
+}
+
+div.box-list ul li p{
+    font-size: 24px; margin: 0;
+}
